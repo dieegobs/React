@@ -28,3 +28,6 @@ class App extends React.Component {
         return <h1>Componente Funcional</h1>;
     }     
  }
+
+
+------------------------------------------------------------
