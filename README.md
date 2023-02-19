@@ -21,7 +21,7 @@ COMPONENTES FUNCIONAIS
         return <h1>Componente Funcional</h1>;
  }
 
-CLASSES
+----- CLASSES -----
 import React from 'react';
 class App extends React.Component {
     render(){
@@ -30,4 +30,4 @@ class App extends React.Component {
  }
 
 
-------------------------------------------------------------
+
