@@ -15,7 +15,16 @@ React é uma biblioteca.
 # JSX
  - Habilidade de escrever código html dentro do javascrit
 
+COMPONENTES FUNCIONAIS
  import React from 'react';
  function App(){
         return <h1>Componente Funcional</h1>;
+ }
+
+CLASSES
+import React from 'react';
+class App extends React.Component {
+    render(){
+        return <h1>Componente Funcional</h1>;
+    }     
  }
