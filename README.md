@@ -31,3 +31,12 @@ class App extends React.Component {
 
 
 
+--------------------------------------------------------------
+
+PropTypes exporta uma variedade de validadores que podem ser usados para certificar que os dados que você recebe são válidos.
+
+import PropTypes from 'prop-types';
+
+Post.propTypes = {
+    likes: PropTypes.number.isRequired,
+};
