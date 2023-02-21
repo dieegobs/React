@@ -40,3 +40,11 @@ import PropTypes from 'prop-types';
 Post.propTypes = {
     likes: PropTypes.number.isRequired,
 };
+
+
+Valores Padrão de Props (Default Prop Values)
+Você pode definir valores padrão (default) para suas props através da atribuição à propriedade especial defaultProps
+
+Header.defaultTypes = {
+    title: `JStack`,
+};
