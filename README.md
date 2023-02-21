@@ -61,6 +61,7 @@ const posts = [
 
 {posts.map(post => ( 
     <Post
+        key={post.title}
         post={{
             title: post.title,
             subtitle: post.subtitle,
