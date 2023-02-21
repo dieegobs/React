@@ -48,3 +48,23 @@ Você pode definir valores padrão (default) para suas props através da atribui
 Header.defaultTypes = {
     title: `JStack`,
 };
+
+
+-------------------------------------------------------------------
+
+Listas 
+
+const posts = [
+    {title: 'Title#01, subtitle: 'Sub#01'},
+    {title: 'Title#02, subtitle: 'Sub#02'},
+];
+
+{posts.map(post => ( 
+    <Post
+        post={{
+            title: post.title,
+            subtitle: post.subtitle,
+        }}
+    />
+
+))}
